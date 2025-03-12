@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Al-Quds Leadership Academy community and participate in events, hear testimonials, and explore partnerships.">
+    <meta name="keywords" content="community, events, testimonials, partnerships">
+    <meta name="author" content="Al-Quds Leadership Academy">
+    <title>Community - Al-Quds Leadership Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Al-Quds Leadership Academy Logo">
+            <span>Al-Quds Leadership Academy</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#programs">Programs</a>
+                    <div class="dropdown-content">
+                        <a href="leadership-training.html">Leadership Training</a>
+                        <a href="community-service.html">Community Service</a>
+                        <a href="career-development.html">Career Development</a>
+                        <a href="public-speaking.html">Public Speaking</a>
+                        <a href="soccer-training.html">Soccer Training</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#community">Community</a>
+                    <div class="dropdown-content">
+                        <a href="#events">Events</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#partnerships">Partnerships</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Events Section -->
+    <section id="events" class="community-section">
+        <h2>Upcoming Events</h2>
+        <div class="community-content">
+            <div class="event">
+                <h3>Leadership Workshop</h3>
+                <p><strong>Date:</strong> October 15, 2023</p>
+                <p><strong>Location:</strong> Academy Main Hall</p>
+                <p>Join us for an interactive workshop on leadership skills and team building.</p>
+            </div>
+            <div class="event">
+                <h3>Community Cleanup Day</h3>
+                <p><strong>Date:</strong> November 5, 2023</p>
+                <p><strong>Location:</strong> Local Park</p>
+                <p>Help us make a difference by participating in our annual community cleanup event.</p>
+            </div>
+            <div class="event">
+                <h3>Career Fair</h3>
+                <p><strong>Date:</strong> December 10, 2023</p>
+                <p><strong>Location:</strong> Academy Gymnasium</p>
+                <p>Meet with industry professionals and explore career opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="community-section">
+        <h2>Testimonials</h2>
+        <div class="community-content">
+            <div class="testimonial">
+                <p>"Al-Quds Leadership Academy changed my life. I gained confidence, skills, and lifelong friendships."</p>
+                <p><strong>- Sarah Ahmed</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"The programs here are transformative. I highly recommend this academy to anyone looking to grow."</p>
+                <p><strong>- Mohammed Khan</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"The community service program helped me give back to my community in meaningful ways."</p>
+                <p><strong>- Aisha Mahmoud</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnerships Section -->
+    <section id="partnerships" class="community-section">
+        <h2>Partnerships</h2>
+        <div class="community-content">
+            <p>We are proud to collaborate with the following organizations:</p>
+            <ul>
+                <li><strong>Local Schools:</strong> Partnering to provide leadership training to students.</li>
+                <li><strong>Non-Profit Organizations:</strong> Working together on community service projects.</li>
+                <li><strong>Corporate Sponsors:</strong> Supporting career development and mentorship programs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/event1.jpg" alt="Event 1">
+            <img src="images/event2.jpg" alt="Event 2">
+            <img src="images/event3.jpg" alt="Event 3">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-logo">
+            <img src="images/logo.png" alt="Al-Quds Leadership Academy Logo">
+        </div>
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Al-Quds Leadership Academy. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
